@@ -1,0 +1,1 @@
+#include<stdio.h> This is also known as Pre Processor Directive. Pre processtor directive brings the build-in functions like printf and others functions.
