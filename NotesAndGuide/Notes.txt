@@ -1,1 +1,5 @@
-#include<stdio.h> This is also known as Pre Processor Directive. Pre processtor directive brings the build-in functions like printf and others functions.
+1. #include<stdio.h> This is also known as Pre Processor Directive. Pre processtor directive brings the build-in functions like printf and others functions.
+
+2. Variable is memory location name.
+
+3. %d or %f or etc is called format specifier.
