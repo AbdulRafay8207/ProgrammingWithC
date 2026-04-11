@@ -20,4 +20,16 @@
  -1 + 1
  0 =======> correct answer
 
- 7. if you using int and y
+7. ==, >, <, >=, <=, != are relational operator. And = is assignemnt operator.
+
+8. 0 is falsy value.
+
+9. Priority: 
+1st ==> !
+2nd ==> *, /, %
+3rd ==> +, -
+4th ==> <>, <=, >=
+5th ==> == , !=
+6th ==> &&
+7th ==> ||
+8th ==> =
