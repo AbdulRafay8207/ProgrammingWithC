@@ -3,7 +3,7 @@ To compile C in Linux, first run this command:
 then
 2. gcc (filename) -o (filename without extension)
 by running command 2, you will get a file with no extension.
-3. ./(file with no extension) and you will see your result
+3. ./(filename with no extension) and you will see your result
 
 Auto:
 1. make .zed folder in root project folder and inside .zed add tasks.json which should contain this:
