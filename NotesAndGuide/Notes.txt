@@ -24,7 +24,7 @@
 
 8. 0 is falsy value.
 
-9. Priority: 
+9. Priority:
 1st ==> !
 2nd ==> *, /, %
 3rd ==> +, -
@@ -33,3 +33,11 @@
 6th ==> &&
 7th ==> ||
 8th ==> =
+
+10. Evoltuion order in c depends on compiler:
+a = 2
+printf("%d %d %d", a, ++a, a++);
+we think answer is: left => right
+2 3 3
+but compiler compiled it like this:
+5 5 2 right => left
