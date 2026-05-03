@@ -48,3 +48,4 @@ but compiler compiled it like this:
     We can assign the address to another variable or int like this: int* k = &i;
     We can know what value is assinged to the respective address by doing this: printf("The value assinged to the address is %d",*k); by this or printf("The value assinged to the address is %d",*(&i));
     The * is called value at adress operator and &i (or any variable instead of i) is address of that variable.
+    Detail is written in file 06_DoublePointer.jsx
