@@ -2,21 +2,18 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Compile and Run C",
+            "label": "Run C (Linux)",
             "type": "shell",
-            "command": "cmd.exe",
-            "args": [
-                "/c",
-                "gcc \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\""
-            ],
+            "command": "gcc \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\" -lm && \"${fileDirname}/${fileBasenameNoExtension}\"",
             "group": {
                 "kind": "test",
                 "isDefault": true
             },
             "presentation": {
                 "reveal": "always",
-                "panel": "new"
-            }
+                "panel": "shared"
+            },
+            "problemMatcher": ["$gcc"]
         }
     ]
 }

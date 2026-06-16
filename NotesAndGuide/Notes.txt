@@ -41,3 +41,5 @@ we think answer is: left => right
 2 3 3
 but compiler compiled it like this:
 5 5 2 right => left
+
+11. Use char name[30] to save full name instead of 1 letter, and when taking input from user if you want space between name like Abdul Rafay then must use %[^\n] in scanf.
